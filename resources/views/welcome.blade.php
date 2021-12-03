@@ -8,7 +8,11 @@
             <div class="row mt-5 text-center">
                 <div class="col-lg-5">
                     <h2 class='mt-5'>Realize o gerenciamento dos seus contatos.</h2>
-                    <p>Basta fazer o cadastro ou efetuar login e senha para realizar o gerenciamento.</p>  
+                    <p>Basta fazer o cadastro ou efetuar login e senha para realizar o gerenciamento.</p>
+                    <hr>  
+                    <p>
+                        Para usuários não cadastrados. - <a href="{{route('home')}}" class='btn btn-outline-success'>Clique aqui</a>    
+                    </p>  
                 </div>
                 <div class="col-lg-7">
                     <img src="{{asset('../img/ilustrativa.png')}}" alt="Imagem ilustrativa" class="img-fluid img-thumbnail">
